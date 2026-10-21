@@ -1,6 +1,6 @@
 # Korean translation validation
 
-Catalog additions against `e3bb06a298c24f96678c3c513fa19dbf630ccab6`: **151** entries. Every existing Korean entry is preserved. Only translations supplied by the root task were used.
+Catalog additions against `e3bb06a298c24f96678c3c513fa19dbf630ccab6`: **158** entries. Every existing Korean entry is preserved. Only translations supplied by the root task were used.
 
 ## Independent coverage
 
@@ -12,8 +12,8 @@ Catalog additions against `e3bb06a298c24f96678c3c513fa19dbf630ccab6`: **151** en
 ## Static checks
 
 - Catalog syntax/table shape, unique keys, source keys, named placeholders, trailing ellipses, explicit shortcut tokens, and preservation of all existing Korean entries passed.
-- Tokenized source audit: 899 unique direct translation lookup keys; 7 word-bearing keys still missing from this catalog.
-- Recorded 242 dynamic lookup sites for source inspection. Variable document text, file names, and machine identifiers retain their existing behavior.
+- Tokenized source audit: 900 unique direct translation lookup keys; 0 word-bearing keys still missing from this catalog.
+- Recorded 245 dynamic lookup sites for source inspection. Variable document text, file names, and machine identifiers retain their existing behavior.
 - Finite dynamic checks passed: PhotoCraft menu catalog (632 keys), VectorCraft render-site table (21 keys), FigCraft English UI (1,747 keys), required command reference (574 keys), and menu reference (31 keys). All accepted root-supplied context/id/plural keys resolve.
 - `git diff --check` passed.
 
@@ -29,14 +29,6 @@ Cargo, rustc, and rustfmt are unavailable. Rust installation remains awaiting us
 
 Static checks do not replace runtime verification or prove coverage of arbitrary runtime-generated messages.
 
-## Remaining root input needed
+## Final root mappings
 
-These live direct calls are absent from both supplied root inputs. No new translation was generated:
-
-- `Current Document` (`crates/ui-egui/src/canvas.rs:2592`)
-- `Select a place in this document:` (`crates/ui-egui/src/dialogs.rs:2338`)
-- `Top of the Document` (`crates/ui-egui/src/dialogs.rs:2343`)
-- `Bookmarks` (`crates/ui-egui/src/dialogs.rs:2363`)
-- `Discard the recovery copy of {name}?` (`crates/ui-egui/src/dialogs.rs:2708`)
-- `This cannot be undone. Your original file stays unchanged.` (`crates/ui-egui/src/dialogs.rs:2709`)
-- `Discard` (`crates/ui-egui/src/dialogs.rs:2713`)
+The final seven root-provided translations are included. `Discard` occurs in production only in `Dialog::DiscardRecovery` and has no pre-existing Korean entry, so its supplied recovery-action wording `삭제` is added without changing another context. Source keys and `{name}` remain unchanged. The source audit includes WordCraft's `tc`/`trc` context APIs.

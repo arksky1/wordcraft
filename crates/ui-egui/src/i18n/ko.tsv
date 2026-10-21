@@ -2693,3 +2693,10 @@ template	Letter	편지
 	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	페이지에서 자르기는 회전하지 않은 그림에 적용됩니다. 먼저 회전을 0°로 설정하거나 자르기 상자를 사용하세요
 	Nothing of this type in the document.	문서에 이 유형의 항목이 없습니다.
 	Couldn't save {name}, so it is still open and nothing was lost: {error}	{name}을(를) 저장하지 못해 열린 상태로 유지했습니다. 손실된 내용은 없습니다: {error}
+	Current Document	현재 문서
+	Select a place in this document:	이 문서에서 위치 선택:
+	Top of the Document	문서 맨 위
+	Bookmarks	책갈피
+	Discard the recovery copy of {name}?	{name}의 복구 사본을 삭제할까요?
+	This cannot be undone. Your original file stays unchanged.	이 작업은 되돌릴 수 없습니다. 원본 파일은 변경되지 않습니다.
+	Discard	삭제
