@@ -2542,3 +2542,25 @@ preview	Title	제목
 	Type a size in any unit, such as 5 cm or 300 px. The other side follows, so the picture keeps its proportions.	5 cm 또는 300 px처럼 원하는 단위로 크기를 입력하세요. 다른 쪽도 함께 바뀌어 그림의 비율이 유지됩니다.
 
 	Import…	가져오기…
+	Moved from:	이동 전 위치:
+	Moved to:	이동 후 위치:
+	No items to show.	표시할 항목이 없습니다.
+	nothing is selected	선택한 항목이 없습니다.
+	select a picture or shape first	먼저 그림이나 도형을 선택하세요.
+	select recipients first	먼저 수신자를 선택하세요.
+	select two or more pictures or shapes first (Shift+click)	먼저 그림이나 도형을 두 개 이상 선택하세요(Shift+클릭).
+	text boxes can't go inside a text box	텍스트 상자 안에는 텍스트 상자를 넣을 수 없습니다.
+	the cursor isn't in a table	커서가 표 안에 있지 않습니다.
+	{name} options	{name} 옵션
+	{language} (dictionary unreadable)	{language}(사전을 읽을 수 없음)
+	The spelling dictionary for {language} couldn't be read, so it isn't checked. File: {file}. Reason: {reason}	{language} 맞춤법 사전을 읽지 못해 검사하지 않습니다. 파일: {file}. 이유: {reason}
+	The number must be a divisor of {max}.	숫자는 {max}의 약수여야 합니다.
+	No new sources in that file	해당 파일에 새 출처가 없습니다
+	Imported 1 source	출처 1개를 가져왔습니다
+	Imported {n} sources	출처 {n}개를 가져왔습니다
+	Automatically add words to list (First Letter)	목록에 단어 자동 추가(첫 글자)
+	Automatically add words to list (INitial CAps)	목록에 단어 자동 추가(첫 두 글자 대문자)
+	Scale to paper size	용지 크기에 맞게 조절
+	{language}: {file} (unreadable: {reason})	{language}: {file}(읽을 수 없음: {reason})
+	{paper}   {width} × {height}	{paper}   {width} × {height}
+	Open a document first	먼저 문서를 여세요
